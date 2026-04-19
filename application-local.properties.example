@@ -1,0 +1,6 @@
+# Copy this file to application-local.properties (which is git-ignored)
+# and put your real local credentials here.
+DB_URL=jdbc:mysql://localhost:3306/geng_direction?useSSL=false&serverTimezone=UTC&characterEncoding=utf8
+DB_USERNAME=root
+DB_PASSWORD=replace_with_your_password
+
