@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.nailong.gengdirection.tag.mapper.TagMapper">
+
+    <select id="listAllTags" resultType="com.nailong.gengdirection.tag.entity.TagInfo">
+        SELECT id, tag_name AS tagName FROM tag_info
+    </select>
+
+    <insert id="insertTag">
+        INSERT INTO tag_info (tag_name) VALUES (#{tagName})
+    </insert>
+
+    <insert id="insertPostTag">
+        INSERT IGNORE INTO geng_post_tag (post_id, tag_id)
+        VALUES (#{postId}, #{tagId})
+    </insert>
+
+    <delete id="deletePostTag">
+        DELETE FROM geng_post_tag
+        WHERE post_id = #{postId} AND tag_id = #{tagId}
+    </delete>
+
+    <select id="listPostIdsByTagId" resultType="long">
+        SELECT post_id FROM geng_post_tag
+        WHERE tag_id = #{tagId}
+            LIMIT #{offset}, #{pageSize}
+    </select>
+
+</mapper>
