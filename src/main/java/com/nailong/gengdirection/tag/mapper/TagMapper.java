@@ -1,9 +1,11 @@
 package com.nailong.gengdirection.tag.mapper;
 
 import com.nailong.gengdirection.tag.entity.TagInfo;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
+@Mapper
 public interface TagMapper {
     // 查询所有标签
     List<TagInfo> listAllTags();

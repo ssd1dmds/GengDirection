@@ -1,0 +1,364 @@
+2026-04-22 19:12:22.980 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 15816 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 19:12:22.986 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 19:12:24.234 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 19:12:24.248 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:12:24.250 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 19:12:24.250 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 19:12:24.305 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1257 ms
+2026-04-22 19:12:24.627 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tagController' defined in file [C:\Users\35389\GengDirection\build\classes\java\main\com\nailong\gengdirection\tag\controller\TagController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.nailong.gengdirection.tag.service.TagService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-04-22 19:12:24.630 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-04-22 19:12:24.640 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-22 19:12:24.658 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.nailong.gengdirection.tag.controller.TagController required a bean of type 'com.nailong.gengdirection.tag.service.TagService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.nailong.gengdirection.tag.service.TagService' in your configuration.
+
+2026-04-22 19:20:22.239 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 19836 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 19:20:22.242 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 19:20:23.292 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 19:20:23.303 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:20:23.305 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 19:20:23.305 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 19:20:23.365 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1067 ms
+2026-04-22 19:20:23.441 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'postController' defined in file [C:\Users\35389\GengDirection\build\classes\java\main\com\nailong\gengdirection\post\controller\PostController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'postServiceImpl' defined in file [C:\Users\35389\GengDirection\build\classes\java\main\com\nailong\gengdirection\post\service\impl\PostServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.nailong.gengdirection.post.mapper.PostMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-04-22 19:20:23.445 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-04-22 19:20:23.457 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-22 19:20:23.474 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.nailong.gengdirection.post.service.impl.PostServiceImpl required a bean of type 'com.nailong.gengdirection.post.mapper.PostMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.nailong.gengdirection.post.mapper.PostMapper' in your configuration.
+
+2026-04-22 19:25:08.553 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 35196 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 19:25:08.562 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 19:25:09.596 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 19:25:09.610 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:25:09.611 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 19:25:09.611 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 19:25:09.663 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1051 ms
+2026-04-22 19:25:09.731 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'postController' defined in file [C:\Users\35389\GengDirection\build\classes\java\main\com\nailong\gengdirection\post\controller\PostController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'postServiceImpl' defined in file [C:\Users\35389\GengDirection\build\classes\java\main\com\nailong\gengdirection\post\service\impl\PostServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.nailong.gengdirection.post.mapper.PostMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-04-22 19:25:09.734 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-04-22 19:25:09.747 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-22 19:25:09.767 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.nailong.gengdirection.post.service.impl.PostServiceImpl required a bean of type 'com.nailong.gengdirection.post.mapper.PostMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.nailong.gengdirection.post.mapper.PostMapper' in your configuration.
+
+2026-04-22 19:27:27.902 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 23984 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 19:27:27.905 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 19:27:28.951 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 19:27:28.964 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:27:28.966 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 19:27:28.966 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 19:27:29.016 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1061 ms
+2026-04-22 19:27:29.270 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tagController' defined in file [C:\Users\35389\GengDirection\build\classes\java\main\com\nailong\gengdirection\tag\controller\TagController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.nailong.gengdirection.tag.service.TagService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-04-22 19:27:29.273 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-04-22 19:27:29.281 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-22 19:27:29.298 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.nailong.gengdirection.tag.controller.TagController required a bean of type 'com.nailong.gengdirection.tag.service.TagService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.nailong.gengdirection.tag.service.TagService' in your configuration.
+
+2026-04-22 19:34:45.266 [Test worker] INFO  c.n.gengdirection.GengDirectionApplicationTests - Starting GengDirectionApplicationTests using Java 21.0.10 with PID 32976 (started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 19:34:45.269 [Test worker] INFO  c.n.gengdirection.GengDirectionApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 19:34:47.845 [Test worker] INFO  c.n.gengdirection.GengDirectionApplicationTests - Started GengDirectionApplicationTests in 3.212 seconds (process running for 5.319)
+2026-04-22 19:35:52.398 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 26736 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 19:35:52.402 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 19:35:53.481 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 19:35:53.494 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:35:53.495 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 19:35:53.496 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 19:35:53.555 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1098 ms
+2026-04-22 19:35:54.191 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:35:54.219 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-22 19:35:54.224 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Started GengDirectionApplication in 2.411 seconds (process running for 3.047)
+2026-04-22 19:37:10.705 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 19:37:10.706 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 19:37:10.708 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-22 19:37:10.728 [http-nio-8080-exec-2] WARN  c.n.gengdirection.exception.GlobalExceptionHandler - Exception(From java.lang):Request method 'POST' is not supported
+2026-04-22 19:37:23.693 [http-nio-8080-exec-3] WARN  c.n.gengdirection.exception.GlobalExceptionHandler - Exception(From java.lang):Invalid bound statement (not found): com.nailong.gengdirection.tag.mapper.TagMapper.listAllTags
+2026-04-22 19:44:53.186 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 19:44:53.197 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 19:44:57.570 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 18336 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 19:44:57.572 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 19:44:58.372 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 19:44:58.382 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:44:58.383 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 19:44:58.384 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 19:44:58.428 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 810 ms
+2026-04-22 19:44:58.859 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:44:58.873 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-22 19:44:58.876 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Started GengDirectionApplication in 1.71 seconds (process running for 2.137)
+2026-04-22 19:45:17.260 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 19:45:17.260 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 19:45:17.260 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-04-22 19:45:17.314 [http-nio-8080-exec-1] WARN  c.n.gengdirection.exception.GlobalExceptionHandler - Exception(From java.lang):Invalid bound statement (not found): com.nailong.gengdirection.tag.mapper.TagMapper.listAllTags
+2026-04-22 19:45:17.649 [http-nio-8080-exec-8] WARN  c.n.gengdirection.exception.GlobalExceptionHandler - Exception(From java.lang):No static resource favicon.ico for request '/favicon.ico'.
+2026-04-22 19:45:30.436 [http-nio-8080-exec-4] WARN  c.n.gengdirection.exception.GlobalExceptionHandler - Exception(From java.lang):Invalid bound statement (not found): com.nailong.gengdirection.tag.mapper.TagMapper.listAllTags
+2026-04-22 19:51:36.641 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 19:51:36.651 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 19:51:45.584 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 28348 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 19:51:45.586 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 19:51:46.355 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 19:51:46.366 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:51:46.367 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 19:51:46.367 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 19:51:46.424 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 797 ms
+2026-04-22 19:51:46.909 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:51:46.927 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-22 19:51:46.932 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Started GengDirectionApplication in 1.758 seconds (process running for 2.193)
+2026-04-22 19:51:54.744 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 19:51:54.745 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 19:51:54.746 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-22 19:51:54.789 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-22 19:51:55.987 [http-nio-8080-exec-1] WARN  c.n.gengdirection.exception.GlobalExceptionHandler - Exception(From java.lang):
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in file [C:\Users\35389\GengDirection\build\resources\main\mapper\tag\TagMapper.xml]
+### The error may involve com.nailong.gengdirection.tag.mapper.TagMapper.listAllTags
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+2026-04-22 19:55:53.157 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 19:55:53.169 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 19:55:56.570 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 31580 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 19:55:56.571 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 19:55:57.302 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 19:55:57.311 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:55:57.312 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 19:55:57.312 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 19:55:57.361 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 753 ms
+2026-04-22 19:55:57.789 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:55:57.804 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-22 19:55:57.808 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Started GengDirectionApplication in 1.656 seconds (process running for 2.085)
+2026-04-22 19:56:01.941 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 19:56:01.941 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 19:56:01.941 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-04-22 19:56:01.978 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-22 19:56:03.090 [http-nio-8080-exec-2] WARN  c.n.gengdirection.exception.GlobalExceptionHandler - Exception(From java.lang):
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in file [C:\Users\35389\GengDirection\build\resources\main\mapper\tag\TagMapper.xml]
+### The error may involve com.nailong.gengdirection.tag.mapper.TagMapper.listAllTags
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+2026-04-22 19:56:38.145 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 19:56:38.155 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 19:56:43.610 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 25036 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 19:56:43.612 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 19:56:44.329 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 19:56:44.341 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:56:44.342 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 19:56:44.342 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 19:56:44.378 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 724 ms
+2026-04-22 19:56:44.830 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:56:44.846 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-22 19:56:44.852 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Started GengDirectionApplication in 1.666 seconds (process running for 2.077)
+2026-04-22 19:56:48.257 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 19:56:48.257 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 19:56:48.258 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-22 19:56:48.305 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-22 19:56:49.457 [http-nio-8080-exec-2] WARN  c.n.gengdirection.exception.GlobalExceptionHandler - Exception(From java.lang):
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in file [C:\Users\35389\GengDirection\build\resources\main\mapper\tag\TagMapper.xml]
+### The error may involve com.nailong.gengdirection.tag.mapper.TagMapper.listAllTags
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+2026-04-22 19:58:23.941 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 19:58:23.953 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 19:58:27.421 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 5700 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 19:58:27.423 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 19:58:28.238 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 19:58:28.266 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:58:28.268 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 19:58:28.268 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 19:58:28.327 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 868 ms
+2026-04-22 19:58:28.803 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-22 19:58:28.821 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-22 19:58:28.828 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Started GengDirectionApplication in 1.796 seconds (process running for 2.214)
+2026-04-22 19:58:32.325 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 19:58:32.325 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 19:58:32.326 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-22 19:58:32.396 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-22 19:58:33.539 [http-nio-8080-exec-1] WARN  c.n.gengdirection.exception.GlobalExceptionHandler - Exception(From java.lang):
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in file [C:\Users\35389\GengDirection\build\resources\main\mapper\tag\TagMapper.xml]
+### The error may involve com.nailong.gengdirection.tag.mapper.TagMapper.listAllTags
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+2026-04-22 20:01:10.876 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 20:01:10.889 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 20:01:14.321 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 12892 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 20:01:14.325 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 20:01:15.051 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 20:01:15.064 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 20:01:15.066 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 20:01:15.066 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 20:01:15.108 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 734 ms
+2026-04-22 20:01:15.631 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-22 20:01:15.644 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-22 20:01:15.648 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Started GengDirectionApplication in 1.743 seconds (process running for 2.184)
+2026-04-22 20:01:21.347 [http-nio-8080-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 20:01:21.347 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 20:01:21.348 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-04-22 20:01:21.386 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-22 20:01:22.536 [http-nio-8080-exec-6] WARN  c.n.gengdirection.exception.GlobalExceptionHandler - Exception(From java.lang):
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in file [C:\Users\35389\GengDirection\build\resources\main\mapper\tag\TagMapper.xml]
+### The error may involve com.nailong.gengdirection.tag.mapper.TagMapper.listAllTags
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+2026-04-22 20:02:23.382 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 20:02:23.395 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 20:02:26.280 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 31000 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 20:02:26.284 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 20:02:27.066 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 20:02:27.077 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 20:02:27.078 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 20:02:27.079 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 20:02:27.131 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 799 ms
+2026-04-22 20:02:27.664 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-22 20:02:27.678 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-22 20:02:27.683 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Started GengDirectionApplication in 1.818 seconds (process running for 2.259)
+2026-04-22 20:02:31.419 [http-nio-8080-exec-7] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 20:02:31.420 [http-nio-8080-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 20:02:31.421 [http-nio-8080-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-22 20:02:31.466 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-22 20:02:32.610 [http-nio-8080-exec-7] WARN  c.n.gengdirection.exception.GlobalExceptionHandler - Exception(From java.lang):
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in file [C:\Users\35389\GengDirection\build\resources\main\mapper\tag\TagMapper.xml]
+### The error may involve com.nailong.gengdirection.tag.mapper.TagMapper.listAllTags
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+2026-04-22 20:03:10.740 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 20:03:10.751 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 20:03:27.122 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 8668 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 20:03:27.124 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 20:03:27.986 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 20:03:27.994 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 20:03:27.996 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 20:03:27.996 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 20:03:28.036 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 871 ms
+2026-04-22 20:03:28.558 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-22 20:03:28.575 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-22 20:03:28.581 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Started GengDirectionApplication in 1.876 seconds (process running for 2.316)
+2026-04-22 20:03:32.109 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 20:03:32.109 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 20:03:32.110 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-22 20:03:32.140 [http-nio-8080-exec-2] WARN  c.n.gengdirection.exception.GlobalExceptionHandler - Exception(From java.lang):Invalid bound statement (not found): com.nailong.gengdirection.tag.mapper.TagMapper.listAllTags
+2026-04-22 20:04:28.756 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 20:04:28.765 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 20:04:37.773 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 33432 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 20:04:37.776 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 20:04:38.470 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 20:04:38.479 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 20:04:38.480 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 20:04:38.480 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 20:04:38.513 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 700 ms
+2026-04-22 20:04:38.942 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-22 20:04:38.957 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-22 20:04:38.960 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Started GengDirectionApplication in 1.622 seconds (process running for 2.078)
+2026-04-22 20:04:57.217 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 20:04:57.217 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 20:04:57.219 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-22 20:04:57.275 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-22 20:04:57.488 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45aec999
+2026-04-22 20:04:57.490 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-22 20:04:57.662 [http-nio-8080-exec-1] WARN  c.n.gengdirection.exception.GlobalExceptionHandler - Exception(From java.lang):
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'geng_direction.tag' doesn't exist
+### The error may exist in file [C:\Users\35389\GengDirection\build\resources\main\mapper\tag\TagMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT * FROM tag
+### Cause: java.sql.SQLSyntaxErrorException: Table 'geng_direction.tag' doesn't exist
+; bad SQL grammar []
+2026-04-22 20:05:53.572 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 20:05:53.586 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 20:05:53.590 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-22 20:05:53.596 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-04-22 20:05:57.495 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 30616 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 20:05:57.497 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 20:05:58.261 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 20:05:58.272 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 20:05:58.273 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 20:05:58.273 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 20:05:58.312 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 776 ms
+2026-04-22 20:05:58.820 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-22 20:05:58.834 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-22 20:05:58.840 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Started GengDirectionApplication in 1.755 seconds (process running for 2.19)
+2026-04-22 20:06:01.423 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 20:06:01.423 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 20:06:01.424 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-22 20:06:01.480 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-22 20:06:01.641 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15a0577d
+2026-04-22 20:06:01.643 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-22 20:06:57.367 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 20:06:57.380 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 20:06:57.383 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-22 20:06:57.389 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-04-22 20:14:10.295 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Starting GengDirectionApplication using Java 26 with PID 28824 (C:\Users\35389\GengDirection\build\classes\java\main started by 35389 in C:\Users\35389\GengDirection)
+2026-04-22 20:14:10.297 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 20:14:11.232 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-22 20:14:11.243 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-22 20:14:11.245 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 20:14:11.246 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-22 20:14:11.304 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 965 ms
+2026-04-22 20:14:11.834 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-22 20:14:11.850 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-22 20:14:11.856 [main] INFO  c.nailong.gengdirection.GengDirectionApplication - Started GengDirectionApplication in 1.956 seconds (process running for 2.37)
+2026-04-22 20:14:15.046 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 20:14:15.046 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 20:14:15.048 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-22 20:14:15.087 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-22 20:14:16.268 [http-nio-8080-exec-1] WARN  c.n.gengdirection.exception.GlobalExceptionHandler - Exception(From java.lang):
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in file [C:\Users\35389\GengDirection\build\resources\main\mapper\tag\TagMapper.xml]
+### The error may involve com.nailong.gengdirection.tag.mapper.TagMapper.listAllTags
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+2026-04-22 20:15:43.438 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 20:15:43.449 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
