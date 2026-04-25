@@ -1,22 +1,26 @@
 package com.nailong.gengdirection.tag.controller;
 
+import com.nailong.gengdirection.common.Result;
 import com.nailong.gengdirection.tag.entity.TagInfo;
 import com.nailong.gengdirection.tag.service.TagService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
 @RestController
 @RequestMapping("/tags")
-@RequiredArgsConstructor //  必须加，用于构造器注入
+@RequiredArgsConstructor
 public class TagController {
 
-    private final TagService tagService; //  使用 final + 构造器注入，替代 @Autowired
+    private final TagService tagService;
 
+    /**
+     * 查询所有标签（已实现接口，用Result<T>统一包装，符合需求要求）
+     */
     @GetMapping
-    public List<TagInfo> listAllTags() {
-        return tagService.listAllTags();
+    public Result<List<TagInfo>> listAllTags() {
+        List<TagInfo> tagList = tagService.listAllTags();
+        return Result.success(tagList);
     }
-
-    // 其他接口...
 }
